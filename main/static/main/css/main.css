@@ -1,0 +1,129 @@
+body {
+    background:#2c2c2c;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #ffffff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    color: #BC8F8F;
+}
+
+aside h3 {
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left:10px;
+    color: #BC8F8F;
+}
+
+
+aside ul {list-style: none}
+aside ul li {
+    color: #ffcc66;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul a{text-decoration: none}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-wight: 400px; margin: 20px auto}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 33%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#date {
+    width: 200px;
+    text-align: center;
+
+}
+
+#forms {
+    margin-left: 33%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+div .images {
+    height:350px;
+    weight:350px;
+}
+
+div .div_a{
+    color: #ffcc66;
+    text-decoration: none;
+    }
+
+div .div_a:hover{
+    color: #eb5959;
+    clear: both;
+    display: block;
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+div .content{
+    float: left;
+    margin-left: 11%;
+}
+
+div h3, h1 {
+    color: #C0C0C0;
+}
+
+div .index_img{
+    weight: 300px;
+    height: 300px;
+}
+
+div .index{
+    float: left;
+    margin-left: 17%;
+}
+
+button {
+    text-alight:center;
+}

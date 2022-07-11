@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Сторінка повідомленнь{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Повідомлення клієнтів</h1>
+        {% if news %}
+        {% for el in news %}
+            <div class="alert alert-warning" id="forms">
+                <h3>{{ el.name }}</h3>
+                <p>Номер телефону: {{ el.phone_number }}</p>
+                <p>{{ el.notice }}</p>
+                <p>{{ el.data }}</p>
+            </div>
+        {% endfor %}
+        {% else %}
+            <p>Повідомлення відсутні.</p>
+        {% endif %}
+    </div>
+{% endblock %}

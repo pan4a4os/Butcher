@@ -1,0 +1,27 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Головна сторінка{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ title }}</h1>
+        <div class="index">
+            <img src="static/main/img/chicken_meat.PNG" class="index_img">
+            <p><a href="/notice/create" class="div_a" target="_blank">Тушка курки</a></p>
+        </div>
+        <div class="index">
+            <img src="static/main/img/chicken_fillet.PNG" class="index_img">
+            <p><a href="/notice/create" class="div_a" target="_blank">Куряче філе</a></p>
+        </div>
+        <br><br>
+        <div class="index">
+            <img src="static/main/img/chicken_foot.PNG" class="index_img">
+            <p><a href="/notice/create" class="div_a" target="_blank">Курячі ніжки</a></p>
+        </div>
+        <div class="index">
+            <img src="static/main/img/chicken_wings.PNG" class="index_img">
+            <p><a href="/notice/create" class="div_a" target="_blank">Курячі крильця</a></p>
+        </div>
+
+    </div>
+{% endblock %}
